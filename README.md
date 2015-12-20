@@ -1,2 +1,2 @@
 # cli_parser
-CLI Parser Library
+This is a CLI parsing library to help simplify some types of command line parsing.
