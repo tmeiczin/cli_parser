@@ -395,7 +395,7 @@ static inline int cli_parser(cli_t* cli, int argc, char* argv[]) {
     }
 
     /* check if command specified */
-    if (cli->n_commands.found != 1) {
+    if (cli->n_commands.len && cli->n_commands.found != 1) {
         fprintf(stderr, "ERROR: No command supplied\n");
         return 1;
     }
